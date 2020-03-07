@@ -1,0 +1,37 @@
+.headerContainer {
+    flex: 1;
+    height: 54.5px;
+    justify-content: center;
+}
+
+.innerContainer {
+    flex-direction: row;
+    height: 80px
+}
+
+.headerContentContainer {
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.headerImageContainer {
+    background-color: #a80e0e;
+    height: '100%'
+}
+
+.headerText {
+    display: inline;
+    font-size: 8px;
+    letter-spacing: 0.24;
+    font-family: "Montserrat-Light";
+    color: white;
+    margin-right: 20px;
+    line-height: 9.5px;
+}
+
+.headerImage {
+    width: 12.1px;
+    height: 12.1px;
+    resize: both;
+    margin-right: 20px;
+}

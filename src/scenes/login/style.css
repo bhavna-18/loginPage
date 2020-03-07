@@ -1,0 +1,92 @@
+.headerView {
+    float: right;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+}
+
+.burgerImage {
+    height: 73.1px;
+    width: auto;
+    margin-left: 20%;
+    margin-right: 38.2%;
+    /* margin-top: 5%; */
+}
+
+.backgroundImage {
+    background-image: url('../../assets/Untitled-1.png');
+    height: 540px;
+    width: 960px;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+.middleTextContainer {
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 38.2%;
+}
+
+
+.partyText {
+    font-family: 'AvengeanceMightiestAvenger-Regular';
+    font-weight: 48px;
+    margin-left: 40px;
+    line-height: 41px;
+    letter-spacing: 1.44px;
+    color: white;
+}
+
+
+.orangeImageContainer {
+    background-image: url('../../assets/Group 1389.png');
+    height: 86.9px;
+    width: 394.2px;
+    background-size: contain;
+    z-index: 0px;
+    position: absolute;
+}
+
+.offerText {
+    font-family: 'Montserrat-Bold';
+    font-weight: 15px;
+    line-height: 20px;
+    letter-spacing: 0.33px;
+    color: white;
+    flex-wrap: wrap;
+    height: 38.5px;
+    width: 185px;
+    margin: 25px;
+}
+
+.buttonContainer {
+    background-image: url('../../assets/Rectangle 282.png');
+    height: 34px;
+    width: 127.5px;
+    background-size: contain;
+    z-index: 0px;
+    position: absolute;
+    margin-top: 100px;
+}
+
+.orderNowText {
+    font-family: 'AvengeanceMightiestAvenger-Regular';
+    font-weight: 13.5px;
+    text-align: center;
+    line-height: 11.5px;
+    letter-spacing: 0.41px;
+    color: #a80e0e;
+
+}
+
+.separator {
+    background-image: url('../../assets/Group\ 1390.png');
+    height: 35.8px;
+    width: 960px;
+    background-color: black;
+    background-size: contain;
+}
+
+/* 20/5 = % */
