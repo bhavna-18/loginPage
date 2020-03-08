@@ -1,0 +1,42 @@
+.outerContainer1 {
+    flex-direction: column;
+}
+
+.headingContainer {
+    height: 29px;
+    width: 156px;
+    margin: auto;
+}
+
+.headingText {
+    font-weight: 25px;
+    letter-spacing: 0.75px;
+    text-align: center;
+    color: #a80e0e;
+    font-family: AvengeanceMightiestAvenger-Regular;
+}
+
+.subHeadingContainer {
+    margin-top: 9px;
+    height: 12px;
+    text-align: center;
+}
+
+.subHeadingText {
+    font-weight: 10px;
+    line-height: 35px;
+    margin: auto;
+    color: #382e36;
+    font-family: Montserrat-Light;
+}
+
+.imageOuter {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.imageContainer {
+    height: 6.5px;
+    width: 188.5px;
+    object-fit: contain;
+}

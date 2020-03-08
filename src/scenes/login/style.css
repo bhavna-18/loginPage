@@ -8,7 +8,7 @@
 .burgerImage {
     height: 73.1px;
     width: auto;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-right: 38.2%;
     /* margin-top: 5%; */
 }
@@ -17,23 +17,24 @@
     background-image: url('../../assets/Untitled-1.png');
     height: 540px;
     width: 960px;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    object-fit: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .middleTextContainer {
     flex-direction: column;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-right: 38.2%;
 }
 
 
 .partyText {
-    font-family: 'AvengeanceMightiestAvenger-Regular';
+    font-family: AvengeanceMightiestAvenger-Regular;
     font-weight: 48px;
-    margin-left: 40px;
+    margin-left: 30px;
     line-height: 41px;
     letter-spacing: 1.44px;
     color: white;
@@ -50,7 +51,7 @@
 }
 
 .offerText {
-    font-family: 'Montserrat-Bold';
+    font-family: Montserrat-Bold;
     font-weight: 15px;
     line-height: 20px;
     letter-spacing: 0.33px;
@@ -59,6 +60,7 @@
     height: 38.5px;
     width: 185px;
     margin: 25px;
+    margin-left: 15px;
 }
 
 .buttonContainer {
@@ -72,7 +74,7 @@
 }
 
 .orderNowText {
-    font-family: 'AvengeanceMightiestAvenger-Regular';
+    font-family: AvengeanceMightiestAvenger-Regular;
     font-weight: 13.5px;
     text-align: center;
     line-height: 11.5px;
@@ -85,8 +87,123 @@
     background-image: url('../../assets/Group\ 1390.png');
     height: 35.8px;
     width: 960px;
-    background-color: black;
-    background-size: contain;
+    object-fit: contain;
+}
+
+.upperMiddleOuterContainer {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.carouselView {
+    width: 960px;
+    height: 327px;
+    background-color: #ffaa00
+}
+
+.bmvImage {
+    width: 960px;
+    height: 35.8px;
+    object-fit: contain;
+}
+
+.rectangle {
+    width: 207px;
+    height: 181.5px;
+    border-radius: 5px;
+    background-color: #a80e0e;
+    margin-top: -100px;
+}
+
+.ladyImage {
+    width: 335px;
+    height: 318px;
+    object-fit: contain;
+    border-radius: 5px;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+.convoImage {
+    width: 49.8px;
+    height: 42px;
+    object-fit: contain;
+}
+
+.convoText {
+    width: 355px;
+    height: 79px;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 200;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: black
+}
+
+.nameText {
+    width: 94px;
+    height: 15px;
+    font-family: Montserrat;
+    font-size: 12.5px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.38px;
+    text-align: left;
+    color: black;
+}
+
+.companyText {
+    width: 76px;
+    height: 9.5px;
+    font-family: Montserrat;
+    font-size: 8px;
+    font-weight: 200;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #686868
+}
+
+.outerCommentView {
+    display: inline;
+}
+
+.leftView {
+    float: left;
+    margin-left: 6%;
+}
+
+.rightView {
+    margin: auto;
+    margin-top: 10%;
+    margin-right: 30%;
+    float: right;
+}
+
+.indexView {
+    display: inline;
+}
+
+.orangeIndex {
+    margin-top: 20px;
+    width: 11.5px;
+    height: 4.5px;
+    background-color: #ffaa00
+}
+
+.whiteIndex {
+    margin-top: 20px;
+    background-attachment: #b7b5b5;
+    width: 6.5px;
+    height: 4.5px;
 }
 
 /* 20/5 = % */
