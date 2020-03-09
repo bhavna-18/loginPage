@@ -10,33 +10,12 @@ const Data = require("../../utilities/smallCarousel");
 export default class Login extends Component {
   renderTopView() {
     return (
-      <div style={{ width: "auto", position: "relative" }}>
+      <div style={{ flex: 1 }}>
         <div className="backgroundImage">
           <div className="headerView">
-            <Header />
-          </div>
-          <div>
-            <div>
-              <img
-                src={require("../../assets/Group 1312.png")}
-                alt="icon"
-                className="burgerImage"
-              />
-            </div>
-            <div className="middleTextContainer">
-              <p className="partyText"> Party Time!</p>
-              <div className="orangeImageContainer">
-                <p className="offerText">
-                  Buy any 2 burgers and get 1.5 L Pepsi free
-                </p>
-              </div>
-              <div className="buttonContainer">
-                <p className="orderNowText">order now -></p>
-              </div>
-            </div>
+            <Header data={Data.MENU_ITEM} />
           </div>
         </div>
-        <div className="separator"></div>
       </div>
     );
   }
@@ -134,9 +113,9 @@ export default class Login extends Component {
     return (
       <div style={{ flex: 1 }}>
         {this.renderTopView()}
-        {this.renderUpperMiddleView()}
+        {/* {this.renderUpperMiddleView()}
         {this.renderBottomMiddleView()}
-        {this.renderBottomView()}
+        {this.renderBottomView()} */}
       </div>
     );
   }

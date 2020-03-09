@@ -2,16 +2,19 @@ import React, { PureComponent } from "react";
 import "./style.css";
 
 export default class Header extends PureComponent {
+  renderMenuItems() {
+    let arr = this.props.data.map(item => {
+      return <p className="headerText">{item}</p>;
+    });
+    return arr;
+  }
+
   render() {
     return (
       <div className="headerContainer">
         <div className="innerContainer">
           <span className="headerContentContainer">
-            <p className="headerText">Home</p>
-            <p className="headerText">Menu</p>
-            <p className="headerText">Caller</p>
-            <p className="headerText">Testimonials</p>
-            <p className="headerText">Contact Us</p>
+            {this.renderMenuItems()}
           </span>
           <span className="headerImageContainer">
             <img

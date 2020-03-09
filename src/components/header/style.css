@@ -1,22 +1,26 @@
 .headerContainer {
-    flex: 1;
-    height: 54.5px;
     justify-content: center;
 }
 
 .innerContainer {
     flex-direction: row;
-    height: 80px
+    height: 100px;
 }
 
 .headerContentContainer {
-    background-color: transparent;
+    width: 546.5px;
+    height: 54.5px;
+    opacity: 0.61;
     margin-left: 10px;
+    background-color: #281923;
 }
 
 .headerImageContainer {
     background-color: #a80e0e;
-    height: '100%'
+    width: 214px;
+    height: 54.5px;
+    padding-right: 2px;
+
 }
 
 .headerText {
@@ -27,6 +31,7 @@
     color: white;
     margin-right: 20px;
     line-height: 9.5px;
+    padding-left: 2px;
 }
 
 .headerImage {
@@ -34,4 +39,14 @@
     height: 12.1px;
     resize: both;
     margin-right: 20px;
+}
+
+@media screen and (max-width: 450px) {
+    .innerContainer {
+        flex-direction: column;
+    }
+
+    .headerText {
+        display: inline-block;
+    }
 }

@@ -1,3 +1,11 @@
+export const MENU_ITEM = [
+  "Home",
+  "Menu",
+  "Caller",
+  "Testimonials",
+  "Contact Us"
+];
+
 export const CAROUSEL_DATA = [
   {
     icon: require("../assets/Group 1414.png"),
