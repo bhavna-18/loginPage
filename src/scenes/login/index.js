@@ -5,6 +5,7 @@ import SmallCarousel from "../../components/smallCarousel";
 import Carousel from "../../components/carousel";
 import "./style.css";
 
+const constants = require("./constant");
 const Data = require("../../utilities/smallCarousel");
 
 export default class Login extends Component {
@@ -15,7 +16,34 @@ export default class Login extends Component {
           <div className="headerView">
             <Header data={Data.MENU_ITEM} />
           </div>
+          <div>
+            <div className="burgerImageContainer">
+              <img
+                src={require("../../assets/Group 1312.png")}
+                alt=""
+                className="burgerImage"
+                srcSet="../../assets/Group 1312@2x.png 2x,../../assets/Group 1312@3x.png 3x"
+              />
+            </div>
+            <div className="middleTextContainer">
+              <p className="partyText">{constants.PARTY_TEXT}</p>
+              <div className="orangeImageContainer">
+                <p className="offerText">
+                  {constants.TOP_CONTAINER_SUBHEADING}
+                </p>
+              </div>
+              <div className="buttonContainer">
+                <p className="orderNowText">order now</p>
+              </div>
+            </div>
+          </div>
         </div>
+        <img
+          src={require("../../assets/Group 1390.png")}
+          srcSet="../../assets/Group 1390@2x.png 2x,../../assets/Group 1390@3x.png 3x"
+          className="separator"
+          alt=""
+        />
       </div>
     );
   }
