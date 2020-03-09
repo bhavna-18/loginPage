@@ -66,7 +66,7 @@ export default class Login extends Component {
 
   renderBottomMiddleView() {
     return (
-      <div style={{ width: "auto" }}>
+      <div style={{ marginTop: "3%" }}>
         <img
           src={require("../../assets/Group 1397.png")}
           className="bmvImage"
@@ -75,11 +75,11 @@ export default class Login extends Component {
         <div className="carouselView">
           <Carousel data={Data.CONTENT} />
         </div>
-        <img
+        {/* <img
           src={require("../../assets/Group 1419.png")}
           className="bmvImage"
           alt=""
-        />
+        /> */}
       </div>
     );
   }
@@ -140,7 +140,7 @@ export default class Login extends Component {
       <div style={{ flex: 1 }}>
         {this.renderTopView()}
         {this.renderUpperMiddleView()}
-        {/* {this.renderBottomMiddleView()} */}
+        {this.renderBottomMiddleView()}
         {/* {this.renderBottomView()} */}
       </div>
     );

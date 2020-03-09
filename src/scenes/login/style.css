@@ -101,7 +101,25 @@
   width: 100%;
   object-fit: contain;
   background-color: black;
+}
 
+/* bottom middle view */
+.bmvImage {
+  background-color: #ffaa00;
+  height: 35.8px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.carouselView {
+  width: auto;
+  background-color: #ffaa00;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 @media screen and (max-width: 450px) {

@@ -90,7 +90,7 @@ export default class Carousel extends Component {
   }
   render() {
     return (
-      <div>
+      <div class="carouselOuterContainer">
         <div class="carousel">
           <ul>{this.renderView()}</ul>
         </div>

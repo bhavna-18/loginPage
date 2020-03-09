@@ -3,20 +3,24 @@
   height: 38.1px;
   object-fit: contain;
 }
+
 .btnNext {
   float: right;
   padding: 10px;
 }
+
 .btnPrevious {
   float: left;
   padding: 10px;
 }
+
 .outerContainer {
   width: 163px;
   height: 158px;
   box-shadow: 0 7.5px 7.5px 0 rgba(0, 0, 0, 0.07);
   background-color: white;
 }
+
 .headingText {
   width: 89px;
   height: 27px;
@@ -32,6 +36,7 @@
   text-align: center;
   color: black;
 }
+
 .detailText {
   width: 109px;
   height: 24px;
@@ -54,6 +59,7 @@
   width: auto;
   position: relative;
 }
+
 .carousel ul {
   position: relative;
   list-style: none;
@@ -62,6 +68,7 @@
   width: auto;
   height: auto;
 }
+
 .carousel ul li {
   height: 158px;
   width: 144.5px;
@@ -78,6 +85,48 @@
   height: 219.8px;
   background-color: white;
 }
+
 .carousel ul li.expanded .headingText {
   padding-left: 25%;
+}
+
+@media screen and (max-width: 500px) {
+
+
+  .carousel ul {
+    display: block;
+  }
+
+  .carousel ul li {
+    display: block;
+    margin-right: 10px;
+    height: 130px;
+    width: 170px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+
+  }
+
+  .carousel ul li.expanded {
+    width: 200.8px;
+    height: 189.8px;
+    padding: 10px;
+  }
+
+  .btnNext {
+    float: right;
+    padding: 0px;
+  }
+
+  .btnPrevious {
+    float: left;
+    padding: 0px
+  }
+
+  .carouselOuterContainer {
+    height: auto;
+  }
+
 }
