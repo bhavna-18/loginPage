@@ -6,7 +6,7 @@ import Carousel from "../../components/carousel";
 import "./style.css";
 
 const constants = require("./constant");
-const Data = require("../../utilities/smallCarousel");
+const Data = require("../../utilities/constants");
 
 export default class Login extends Component {
   renderTopView() {
@@ -33,17 +33,17 @@ export default class Login extends Component {
                 </p>
               </div>
               <div className="buttonContainer">
-                <p className="orderNowText">order now</p>
+                <p className="orderNowText">{constants.ORDER_NOW_TEXT}</p>
               </div>
             </div>
           </div>
         </div>
-        {/* <img
+        <img
           src={require("../../assets/Group 1390.png")}
           srcSet="../../assets/Group 1390@2x.png 2x,../../assets/Group 1390@3x.png 3x"
           className="separator"
           alt=""
-        /> */}
+        />
       </div>
     );
   }
@@ -53,10 +53,8 @@ export default class Login extends Component {
       <div className="upperMiddleOuterContainer">
         <div>
           <SubHeading
-            heading={"Want to Eat?"}
-            subHeading={
-              "Try our Most Delicious food and it usually take minutes to deliver!"
-            }
+            heading={constants.WANT_TO_EAT_TEXT}
+            subHeading={constants.SUBHEADING_TEXT}
           />
         </div>
         <div style={{ marginTop: "10%" }}>
@@ -141,9 +139,9 @@ export default class Login extends Component {
     return (
       <div style={{ flex: 1 }}>
         {this.renderTopView()}
-        {/* {this.renderUpperMiddleView()}
-        {this.renderBottomMiddleView()}
-        {this.renderBottomView()} */}
+        {this.renderUpperMiddleView()}
+        {/* {this.renderBottomMiddleView()} */}
+        {/* {this.renderBottomView()} */}
       </div>
     );
   }

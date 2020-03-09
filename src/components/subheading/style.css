@@ -3,31 +3,42 @@
 }
 
 .headingContainer {
-    height: 29px;
     width: 156px;
     margin: auto;
+    text-align: center;
+    height: 12px;
 }
 
 .headingText {
-    font-weight: 25px;
+    color: #a80e0e;
+    width: 156px;
+    font-family: AvengeanceMightiestAvenger;
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
     letter-spacing: 0.75px;
     text-align: center;
-    color: #a80e0e;
-    font-family: AvengeanceMightiestAvenger-Regular;
+    white-space: nowrap;
 }
 
 .subHeadingContainer {
     margin-top: 9px;
-    height: 12px;
     text-align: center;
 }
 
 .subHeadingText {
-    font-weight: 10px;
-    line-height: 35px;
     margin: auto;
     color: #382e36;
-    font-family: Montserrat-Light;
+    width: auto;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    white-space: nowrap;
 }
 
 .imageOuter {
@@ -39,4 +50,10 @@
     height: 6.5px;
     width: 188.5px;
     object-fit: contain;
+}
+
+@media screen and (max-width: 450px) {
+    .subHeadingText {
+        white-space: normal;
+    }
 }
