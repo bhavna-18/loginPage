@@ -3,8 +3,6 @@
   justify-content: center;
   align-self: center;
   align-content: center;
-
-  background-color: cornflowerblue;
 }
 
 .burgerImage {
@@ -18,14 +16,10 @@
 .backgroundImage {
   background-image: url("../../assets/Untitled-1.png");
   height: 540px;
-  /* width:960px; */
-  width: auto;
-  position: relative;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
   object-fit: contain;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 .middleTextContainer {

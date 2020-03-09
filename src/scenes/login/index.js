@@ -10,7 +10,7 @@ const Data = require("../../utilities/smallCarousel");
 export default class Login extends Component {
   renderTopView() {
     return (
-      <div style={{ width: "auto", position: "relative" }}>
+      <div style={{ flex: 1 }}>
         <div className="backgroundImage">
           <div className="headerView">
             <Header />
