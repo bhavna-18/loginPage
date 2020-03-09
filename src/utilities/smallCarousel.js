@@ -9,7 +9,7 @@ export const CAROUSEL_DATA = [
   },
   {
     icon: require("../assets/fries.png"),
-    name: "Fast Food"
+    name: "FastFood"
   },
   {
     icon: require("../assets/Group 1403.png"),

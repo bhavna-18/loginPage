@@ -10,13 +10,13 @@ const Data = require("../../utilities/smallCarousel");
 export default class Login extends Component {
   renderTopView() {
     return (
-      <div style={{ flex: 1 }}>
+      <div style={{ width: "auto", position: "relative" }}>
         <div className="backgroundImage">
           <div className="headerView">
             <Header />
           </div>
           <div>
-            <div style={{ backgroundColor: "voilet" }}>
+            <div>
               <img
                 src={require("../../assets/Group 1312.png")}
                 alt="icon"
@@ -52,17 +52,16 @@ export default class Login extends Component {
             }
           />
         </div>
-        <div style={{ marginTop: "20%" }}>
+        <div style={{ marginTop: "10%" }}>
           <SmallCarousel data={Data.CAROUSEL_DATA} />
         </div>
-        {/**image carousel */}
       </div>
     );
   }
 
   renderBottomMiddleView() {
     return (
-      <div style={{ flex: 1 }}>
+      <div style={{ width: "auto" }}>
         <img
           src={require("../../assets/Group 1397.png")}
           className="bmvImage"
@@ -134,7 +133,8 @@ export default class Login extends Component {
   render() {
     return (
       <div style={{ flex: 1 }}>
-        {this.renderTopView()} {this.renderUpperMiddleView()}
+        {this.renderTopView()}
+        {this.renderUpperMiddleView()}
         {this.renderBottomMiddleView()}
         {this.renderBottomView()}
       </div>

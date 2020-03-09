@@ -77,7 +77,7 @@ $(function() {
 export default class Carousel extends Component {
   renderView() {
     let arr = [];
-    for (let i = 0; i < this.props.data.length - 1; i++) {
+    for (let i = 0; i < this.props.data.length; i++) {
       arr.push(
         <li className="outerContainer">
           <img src={this.props.data[i].icon} className="icon" alt=""></img>
