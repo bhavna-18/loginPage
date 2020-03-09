@@ -101,14 +101,9 @@ export default class Login extends Component {
             alt=""
             className="convoImage"
           />
-          <p className="convoText">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo.
-          </p>
-          <p className="nameText">Neena Mittal</p>
-          <p className="companyText">CEO, Abc company</p>
+          <p className="convoText">{constants.COMMENT_TEXT}</p>
+          <p className="nameText">{constants.NAME}</p>
+          <p className="companyText">{constants.COMPANY}</p>
           <div className="indexView">
             <div className="orangeIndex"></div>
             <div className="whiteIndex"></div>
@@ -121,13 +116,11 @@ export default class Login extends Component {
 
   renderBottomView() {
     return (
-      <div style={{ flex: 1 }}>
+      <div style={{ flex: 1, backgroundColor: "pink" }}>
         <div>
           <SubHeading
-            heading={"Client Testimonials"}
-            subHeading={
-              "Try our Most Delicious food and it usually take minutes to deliver!"
-            }
+            heading={constants.TESTIMONIAL_TEXT}
+            subHeading={constants.SUBHEADING_TEXT}
           />
           {this.renderComments()}
         </div>
@@ -141,7 +134,7 @@ export default class Login extends Component {
         {this.renderTopView()}
         {this.renderUpperMiddleView()}
         {this.renderBottomMiddleView()}
-        {/* {this.renderBottomView()} */}
+        {this.renderBottomView()}
       </div>
     );
   }

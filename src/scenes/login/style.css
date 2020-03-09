@@ -122,6 +122,108 @@
   background-size: 100% 100%;
 }
 
+/* bottom image */
+.outerCommentView {
+  display: inline;
+}
+
+.leftView {
+  float: left;
+  margin-left: 6%;
+  width: 45%;
+}
+
+.rightView {
+  margin: auto;
+  margin-top: 10%;
+  margin-right: 10%;
+  float: right;
+}
+
+.indexView {
+  display: inline;
+}
+
+.orangeIndex {
+  margin-top: 20px;
+  width: 11.5px;
+  height: 4.5px;
+  background-color: #ffaa00;
+}
+
+.whiteIndex {
+  margin-top: 20px;
+  background-attachment: #b7b5b5;
+  width: 6.5px;
+  height: 4.5px;
+}
+
+.rectangle {
+  width: 207px;
+  height: 181.5px;
+  border-radius: 5px;
+  background-color: #a80e0e;
+  margin-top: -100px;
+}
+
+.ladyImage {
+  width: 335px;
+  height: 318px;
+  object-fit: contain;
+  border-radius: 5px;
+  margin-top: 15%;
+  margin-left: 15%;
+}
+
+.convoImage {
+  width: 49.8px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.convoText {
+  width: 355px;
+  height: 79px;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 200;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: black;
+}
+
+.nameText {
+  width: 94px;
+  height: 15px;
+  font-family: Montserrat;
+  font-size: 12.5px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.38px;
+  text-align: left;
+  color: black;
+}
+
+.companyText {
+  width: 76px;
+  height: 9.5px;
+  font-family: Montserrat;
+  font-size: 8px;
+  font-weight: 200;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #686868;
+  white-space: nowrap;
+}
+
 @media screen and (max-width: 450px) {
   .burgerImage {
     margin-top: 4%;
@@ -153,4 +255,34 @@
     margin-left: 3%;
   }
 
+}
+
+@media screen and (max-Width:950) {
+  .leftView {
+    float: left;
+    margin-left: 10%;
+    width: 35%;
+  }
+
+  .rightView {
+    margin: auto;
+    margin-top: 10%;
+    margin-right: 5px;
+    float: right;
+  }
+
+  .ladyImage {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 3px;
+    margin-top: 15%;
+    margin-left: 7%;
+  }
+
+  .rectangle {
+    width: 107px;
+    height: 181.5px;
+    border-radius: 3px;
+  }
 }
