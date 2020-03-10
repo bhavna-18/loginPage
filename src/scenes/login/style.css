@@ -118,6 +118,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   object-fit: contain;
+  /* height: 350px; */
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }

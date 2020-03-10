@@ -67,11 +67,11 @@ export default class Login extends Component {
   renderBottomMiddleView() {
     return (
       <div style={{ marginTop: "3%" }}>
-        <img
+        {/* <img
           src={require("../../assets/Group 1397.png")}
           className="bmvImage"
           alt=""
-        />
+        /> */}
         <div className="carouselView">
           <Carousel data={Data.CONTENT} />
         </div>
@@ -116,7 +116,7 @@ export default class Login extends Component {
 
   renderBottomView() {
     return (
-      <div style={{ flex: 1, backgroundColor: "pink" }}>
+      <div style={{ flex: 1 }}>
         <div>
           <SubHeading
             heading={constants.TESTIMONIAL_TEXT}

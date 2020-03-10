@@ -19,6 +19,7 @@
   height: 158px;
   box-shadow: 0 7.5px 7.5px 0 rgba(0, 0, 0, 0.07);
   background-color: white;
+  margin-bottom: 3%;
 }
 
 .headingText {
@@ -31,10 +32,11 @@
   font-style: normal;
   line-height: 1.5;
   text-align: center;
-  letter-spacing: 0.3px;
   padding-left: 15%;
+  letter-spacing: 0.3px;
   text-align: center;
   color: black;
+  white-space: normal;
 }
 
 .detailText {
@@ -46,6 +48,8 @@
   font-stretch: normal;
   font-style: normal;
   line-height: 1.56;
+  padding-left: 15%;
+  white-space: normal;
   text-align: center;
   letter-spacing: 0.24px;
   text-align: center;
@@ -55,16 +59,17 @@
 .carousel {
   padding-top: 20px;
   overflow: hidden;
-  height: auto;
-  width: auto;
   position: relative;
+  height: 100%;
+  width: 100%;
 }
 
 .carousel ul {
   position: relative;
   list-style: none;
   list-style-type: none;
-  padding-left: 15%;
+  text-align: center;
+  margin-top: 3%;
   width: auto;
   height: auto;
 }
@@ -73,7 +78,7 @@
   height: 158px;
   width: 144.5px;
   float: left;
-  margin-right: 20px;
+  margin-right: 40px;
   background: #f2f2f2;
   text-align: center;
   padding-top: 20px;
@@ -82,12 +87,39 @@
 
 .carousel ul li.expanded {
   width: 226.8px;
-  height: 219.8px;
+  height: 210.8px;
   background-color: white;
+  margin-bottom: 5%;
 }
 
 .carousel ul li.expanded .headingText {
   padding-left: 25%;
+  white-space: nowrap;
+}
+
+.bottomView {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 5;
+  padding-top: 5px;
+}
+
+.carousel .bottomView .btn {
+  color: #b7b5b5;
+  width: 4px;
+  height: 4.5px;
+}
+
+.carousel .buttonView .btnSelected {
+  width: 4px;
+  height: 4.5px;
+  color: white;
+}
+
+.buttons {
+  text-align: center;
+  padding-top: 5px;
 }
 
 @media screen and (max-width: 500px) {
@@ -123,10 +155,6 @@
   .btnPrevious {
     float: left;
     padding: 0px
-  }
-
-  .carouselOuterContainer {
-    height: auto;
   }
 
 }

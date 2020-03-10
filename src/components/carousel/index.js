@@ -79,23 +79,32 @@ export default class Carousel extends Component {
     let arr = [];
     for (let i = 0; i < this.props.data.length; i++) {
       arr.push(
-        <li className="outerContainer">
+        <li className="outerContainer" id={"#item" + i}>
           <img src={this.props.data[i].icon} className="icon" alt=""></img>
           <p className="headingText">{this.props.data[i].heading}</p>
           <p>{this.props.data[i].detail}</p>
         </li>
       );
     }
-    return <div>{arr}</div>;
+    return <div style={{ backgroundColor: "blue" }}>{arr}</div>;
   }
   render() {
     return (
       <div class="carouselOuterContainer">
         <div class="carousel">
           <ul>{this.renderView()}</ul>
+          <div className="bottomView">
+            <div class="btnPrevious">Previous </div>
+            <div class="btnNext">Next</div>
+            <div className="buttons">
+              <span className="btn">•</span>
+              <span className="btn">•</span>
+              <span className="btnSelected">•</span>
+              <span className="btn">•</span>
+              <span className="btn">•</span>
+            </div>
+          </div>
         </div>
-        <div class="btnPrevious">Previous </div>
-        <div class="btnNext">Next</div>
       </div>
     );
   }
