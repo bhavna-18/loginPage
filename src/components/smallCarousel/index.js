@@ -17,7 +17,6 @@ export default class SmallCarousel extends Component {
       borderRadius: 2.5,
       boxShadow: "0 7.5px 7.5px 0 rgba(0, 0, 0, 0.07)"
     });
-    console.log("value is " + this.state.value);
   }
 
   renderView() {
@@ -33,7 +32,7 @@ export default class SmallCarousel extends Component {
             boxShadow:
               this.state.value === this.props.data[i].name
                 ? this.state.boxShadow
-                : 0
+                : "0 0 0 0 rgba(0, 0, 0, 0)"
           }}
           className="cardContainer"
           onClick={item => this.changeStyling(this.props.data[i])}

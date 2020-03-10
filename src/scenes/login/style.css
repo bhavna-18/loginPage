@@ -275,6 +275,7 @@
   .rightView {
     margin: auto;
     margin-top: 10%;
+    margin-left: 2%;
     margin-right: 5px;
     float: right;
   }
