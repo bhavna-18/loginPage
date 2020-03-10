@@ -9,7 +9,7 @@
     height: 12px;
 }
 
-.headingText {
+.headingText1 {
     color: #a80e0e;
     width: 156px;
     font-family: AvengeanceMightiestAvenger;
@@ -42,14 +42,15 @@
 }
 
 .imageOuter {
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
 }
 
 .imageContainer {
     height: 6.5px;
-    width: 188.5px;
+    width: 200.5px;
     object-fit: contain;
+    margin-top: 2%;
 }
 
 @media screen and (max-width: 450px) {

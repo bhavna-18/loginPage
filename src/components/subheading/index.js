@@ -9,7 +9,7 @@ export default class SubHeading extends Component {
       <div style={{ flex: 1 }}>
         <div className="outerContainer1">
           <div className="headingContainer">
-            <p className="headingText">{heading}</p>
+            <p className="headingText1">{heading}</p>
           </div>
           <div className="imageOuter">
             <img
