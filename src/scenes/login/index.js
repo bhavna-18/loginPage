@@ -38,12 +38,11 @@ export default class Login extends Component {
             </div>
           </div>
         </div>
-        <img
+        {/* <img
           src={require("../../assets/Group 1390.png")}
-          srcSet="../../assets/Group 1390@2x.png 2x,../../assets/Group 1390@3x.png 3x"
           className="separator"
           alt=""
-        />
+        /> */}
       </div>
     );
   }
